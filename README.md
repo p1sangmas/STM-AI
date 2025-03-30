@@ -4,6 +4,10 @@
 
 This project demonstrates the integration of advanced AI models with resource-constrained embedded systems, specifically using the STM32H747I-DISCO microcontroller board for real-time image recognition. The system leverages Google's Teachable Machine for model training and STM32Cube.AI Developer Cloud for optimization, showcasing the potential of deploying sophisticated AI applications on low-power hardware.
 
+Prototype             |  Components             |  Testing
+:-------------------------:|:-------------------------:|:-------------------------:
+![](./images/3.png)  |  ![](./images/1.png)  |  ![conf](./images/2.png)
+
 ## Table of Contents 
 
 - [Project Objectives](#project-objectives)
@@ -30,6 +34,7 @@ This project demonstrates the integration of advanced AI models with resource-co
 - Model optimization for STM32 architecture using STM32Cube.AI Developer Cloud.
 
 ## Hardware Components🛠
+
 
 ### 1. STM32H747I-DISCO Board
 - Dual-core architecture with strong performance.
@@ -80,6 +85,11 @@ This project demonstrates the integration of advanced AI models with resource-co
 4. Observe the output on the display or through connected interfaces.
 
 ## Results🔬
+
+Accuracy             |  Loss             |  Confusion Matrix
+:-------------------------:|:-------------------------:|:-------------------------:
+![accuracy](./images/accuracy.png)  |  ![loss](./images/loss.png)  |  ![conf](./images/conf_matrix.png)
+
 
 - Successfully demonstrated real-time image recognition on STM32H747I-DISCO board.
 - Achieved notable accuracy in recognizing various objects including Arduino UNO, ESP32 cam, ESP8266, and Wi-Fi expansion board with STM32.
